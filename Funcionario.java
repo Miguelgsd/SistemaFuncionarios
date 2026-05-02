@@ -48,7 +48,7 @@ public class Funcionario {
 	}
 
 	public void aplicarReajuste(double percent, double salario){
-		this.salario = salario + (salario * percent);
+		this.salario = salario + (salario * (percent/100));
 	}
 
 	public void demitir(String nome){
