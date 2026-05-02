@@ -19,11 +19,12 @@ public class Departamento {
 	}
 
 	public void listarFuncionarios(){
-		System.out.println("Informações dos funcionários: ----------------------------\n");
+		System.out.println("Informações dos funcionários: \n----------------------------\n");
 		for (int j = 0; j < i; j++) {
 			if (arrayFunc[j] != null) {
 				arrayFunc[j].exibirDados();
 			}
+			System.out.println("\n-----------------------");
 		}
 
 	}

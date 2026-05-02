@@ -3,7 +3,7 @@ public class Funcionario {
 	private String cpf;
 	private String cargo;
 	private double salario;
-	private boolean ativo;
+	private boolean ativo = true;
 
 	public Funcionario(String nome, String cpf, String cargo, double salario){
 		this.nome = nome;
@@ -51,7 +51,7 @@ public class Funcionario {
 		this.salario = salario + (salario * (percent/100));
 	}
 
-	public void demitir(String nome){
+	public void demitir(){
 		this.ativo = false;
 	}
 
