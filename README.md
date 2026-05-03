@@ -64,3 +64,16 @@ Classe responsável por criar e gerenciar um departamento. Possui um construtor 
 - adicionarFuncionario() - adiciona um funcionário ao array do departamento, caso ainda haja espaço disponível;
 - listarFuncionarios() - percorre todo o array do departamento, checando se não há índice nulo. Após isso, exibe as informações de cada funcionário do departamento;
 - calcularFolhaSalarial() - percorre todo o array do departamento, analisando quais funcionários estão ativos, somando o salário desses e retornando o valor.
+
+<hr>
+
+### TesteSistema
+Classe principal com o método main()  
+**O que faz:**  
+- Cria 4 objetos com a classe Funcionario. 3 objetos são criados com o construtor parametrizado e 1 objeto é criado com o construtor default;
+- Altera os dados do objeto criado com o construtor default;
+- Adiciona todos os funcionários ao departamento Tecnologia da Informação;
+- Aplica um reajuste salarial ao primeiro funcionário;
+- Demite o terceiro funcionário;
+- Lista os funcionários do departamento;
+- Chama o método de cálculo da folha salarial e exibe o total na tela, com saída formatada.
