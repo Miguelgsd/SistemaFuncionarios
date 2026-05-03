@@ -77,3 +77,12 @@ Classe principal com o método main()
 - Demite o terceiro funcionário;
 - Lista os funcionários do departamento;
 - Chama o método de cálculo da folha salarial e exibe o total na tela, com saída formatada.
+
+## Informações adicionais
+**Tecnologias utilizadas:**  
+- Java 21.0.11;
+- Vim;
+- Nano.
+
+**Desenvolvido por:**  
+- Miguel, 2° período.
